@@ -72,9 +72,9 @@
                 success: function (response) {
                     let reviews = response['all_reviews']
                     for (let i = 0; i < reviews.length; i++) {
-                        let title = reviews[i]['title'];
-                        let author = reviews[i]['author'];
-                        let review = reviews[i]['review'];
+                        let title = reviews[i]['title']
+                        let author = reviews[i]['author']
+                        let review = reviews[i]['review']
 
                         let temp_html = `<tr>
                                             <td>${title}</td>
@@ -109,8 +109,9 @@
 </head>
 <body>
 <div class="container">
-    <img src="https://previews.123rf.com/images/maxxyustas/maxxyustas1511/maxxyustas151100002/47858355-education-conce
-class="img-fluid" alt="Responsive image">
+    <img src="https://previews.123rf.com/images/maxxyustas/maxxyustas1511/maxxyustas151100002/47858355-education-concept-books-and-textbooks-on-the-bookshelf-3d.jpg"
+                 class="img-fluid" alt="Responsive image">
+    <a href="/api"><button class="btn btn-secondary" style="float: right;">나의 무비스타 이용하기</button></a>
     <div class="info">
         <h1>읽은 책에 대해 말씀해주세요.</h1>
         <p>다른 사람을 위해 리뷰를 남겨주세요! 다 같이 좋은 책을 읽는다면 다 함께 행복해질 수 있지 않을까요?</p>
